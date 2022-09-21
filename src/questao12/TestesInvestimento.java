@@ -29,8 +29,8 @@ public class TestesInvestimento {
             return;
         }
 
-        double resultado = realizadorInvestimento.getResultadoInvestimento();
+        double resultado = realizadorInvestimento.completarInvestimento();
         System.out.println("Resultado: "+ resultado);
     }
-    
+
 }

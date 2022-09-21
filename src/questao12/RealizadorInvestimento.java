@@ -8,11 +8,8 @@ public class RealizadorInvestimento {
         this.contexto = contexto;
     }
 
-    public void investir(){
+    public double completarInvestimento(){
         this.contexto.investir();
-    }
-
-    public double getResultadoInvestimento(){
         return this.contexto.valorLucro();
     }
 }

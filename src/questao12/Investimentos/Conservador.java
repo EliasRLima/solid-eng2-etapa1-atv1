@@ -8,10 +8,6 @@ public class Conservador extends InvestimentoAbstract {
         super(valorInvestido);
     }
 
-    public Conservador() {
-        super();
-    }
-
     @Override
     public void investir() {
        System.out.println("Feito o procedimento de investimento conservador.");

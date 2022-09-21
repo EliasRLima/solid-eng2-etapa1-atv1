@@ -9,10 +9,6 @@ public class Moderado extends InvestimentoAbstract {
         super(valorInvestido);
     }
 
-    public Moderado() {
-        super();
-    }
-
     @Override
     public void investir() {
         System.out.println("Feito o procedimento de investimento moderado.");

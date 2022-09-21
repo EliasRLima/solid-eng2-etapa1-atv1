@@ -9,10 +9,6 @@ public class Arrojado extends InvestimentoAbstract {
         super(valorInvestido);
     }
 
-    public Arrojado() {
-        super();
-    }
-
     @Override
     public void investir() {
         System.out.println("Feito o procedimento de investimento arrojado.");
